@@ -12,6 +12,8 @@
 		9F19D85C20F73DEC00D5775B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F19D85A20F73DEC00D5775B /* Main.storyboard */; };
 		9F19D85E20F73DF600D5775B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F19D85D20F73DF600D5775B /* Assets.xcassets */; };
 		9F19D86120F73DF600D5775B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F19D85F20F73DF600D5775B /* LaunchScreen.storyboard */; };
+		9F19D86920F73EBC00D5775B /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F19D86820F73EBC00D5775B /* MNIST.mlmodel */; };
+		9F19D86B20F73EC600D5775B /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19D86A20F73EC500D5775B /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9F19D85D20F73DF600D5775B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F19D86020F73DF600D5775B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F19D86220F73DF600D5775B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F19D86820F73EBC00D5775B /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		9F19D86A20F73EC500D5775B /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				9F19D85820F73DEC00D5775B /* ViewController.swift */,
 				9F19D85A20F73DEC00D5775B /* Main.storyboard */,
 				9F19D85D20F73DF600D5775B /* Assets.xcassets */,
+				9F19D86820F73EBC00D5775B /* MNIST.mlmodel */,
+				9F19D86A20F73EC500D5775B /* CanvasView.swift */,
 				9F19D85F20F73DF600D5775B /* LaunchScreen.storyboard */,
 				9F19D86220F73DF600D5775B /* Info.plist */,
 			);
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F19D86920F73EBC00D5775B /* MNIST.mlmodel in Sources */,
 				9F19D85920F73DEC00D5775B /* ViewController.swift in Sources */,
+				9F19D86B20F73EC600D5775B /* CanvasView.swift in Sources */,
 				9F19D85720F73DEC00D5775B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4976K7VKQJ;
 				INFOPLIST_FILE = CoreMLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4976K7VKQJ;
 				INFOPLIST_FILE = CoreMLProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
